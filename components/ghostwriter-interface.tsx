@@ -93,7 +93,7 @@ export function GhostwriterInterface() {
     setStory(null);
     
     try {
-      const apiKey = process.env.NEXT_PUBLIC_GEMINI_API_KEY || "AIzaSyDHEE0l3eDrtToKdccARYT0LGrphIVKXGQ";
+      const apiKey = process.env.NEXT_PUBLIC_GEMINI_API_KEY || "AIzaSyC-v63zly6q2mer5J9C_n8taCcSK6YNu9A";
       if (!apiKey) {
         throw new Error("Missing Gemini API Key");
       }
@@ -146,7 +146,7 @@ export function GhostwriterInterface() {
     setError(null);
     
     try {
-      const apiKey = process.env.NEXT_PUBLIC_GEMINI_API_KEY || "AIzaSyDHEE0l3eDrtToKdccARYT0LGrphIVKXGQ";
+      const apiKey = process.env.NEXT_PUBLIC_GEMINI_API_KEY || "AIzaSyC-v63zly6q2mer5J9C_n8taCcSK6YNu9A";
       if (!apiKey) {
         throw new Error("Missing Gemini API Key");
       }
